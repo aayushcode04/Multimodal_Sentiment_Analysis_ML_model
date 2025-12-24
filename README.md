@@ -32,24 +32,6 @@ The system captures real-time input from a user and performs:
 
 ---
 
-## 🧠 Why This Project Is Different
-
-During development, several **real ML problems** were encountered and fixed:
-
-- Shortcut learning caused by synthetic datasets
-- Overfitting due to artificially high accuracy (99% ≠ good model)
-- Dataset imbalance leading to prediction collapse
-- Unrealistic behavior on real spoken sentences
-
-The final system was achieved by:
-- Mixing multiple datasets
-- Balancing class distributions
-- Accepting lower accuracy for **better generalization**
-- Treating emotion as **noisy and subjective**, not exact
-
-Final models behave **naturally**, not aggressively.
-
----
 
 ## 📊 Example Behavior
 
@@ -68,7 +50,6 @@ The system does **not blindly trust one modality**, similar to how humans judge 
 - TensorFlow / Keras (Text Model)
 - OpenCV (Face Analysis)
 - Librosa / PyAudio (Audio Features)
-- Tkinter (Final Result UI)
 - NumPy, Pandas
 
 ---
@@ -82,16 +63,6 @@ The system does **not blindly trust one modality**, similar to how humans judge 
 
 ---
 
-## 📌 Key Learnings
-
-- Accuracy alone does not mean correctness
-- Dataset quality matters more than size
-- Multimodal systems must tolerate disagreement
-- Real-world ML systems are imperfect by design
-
-This project focuses on **practical ML reasoning**, not leaderboard scores.
-
----
 
 ## 📁 Models & Dataset
 
